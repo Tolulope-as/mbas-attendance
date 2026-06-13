@@ -128,7 +128,7 @@ function StudentDashboard() {
         { lat: latitude, lon: longitude },
         { lat: session.latitude, lon: session.longitude },
       );
-      if (d > 500) {
+      if (d > 350) {
         setVerifyState({
           kind: "error",
           denied: true,
